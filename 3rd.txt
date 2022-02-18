@@ -1,0 +1,52 @@
+const data = {
+    name: 'John Doe',
+    age: 32,
+    title: 'Vice President of JavaScript'
+  };
+
+const data2={
+    id: "file",
+    value: "File1",
+    popup: "file2"
+ }
+ const data3=[{
+    id: "file",
+    value: "File1",
+    popup: "file2"
+ }]
+
+ for (let key in data2){
+   console.log(key,":",data2[key])
+ }
+ for (let key of data3){
+    console.log(key)
+  }
+
+  for (let x=0;x<data3.length;x++){
+      console.log(data3[x]);
+  };
+
+  Object.keys(data).forEach(function(key,value){
+      console.log(data[key]);
+  })
+
+  //resume
+  const resume={
+      name:"Sathwic krishna Jain",
+      age:"23 yrs",
+      Phone:"9999999999",
+      Address:"xyz",
+      Education:{
+          "Class 10th":{"Name of the school":"abc",Marks:"xyz"},
+          "Class 12th":{"Name of school":"abc",Marks:"xyz"},
+          "Graduation":{"Name of the college":"qwe",Subject:"Computer Science",Grade:"100%",Modules:["abc","xyz","mno","pqr"]},
+          "Post-Graduation":{"Name of the college":"qwe",Subject:"Computer Science",Grade:"100%",Modules:["abc","xyz","mno","pqr"]},
+          "Projects":["123","345","678"]
+      },
+      Hobbies:["qwe","tyu","asd","Zxc"]
+  };
+
+3.
+//Window is the execution context and global object for that context's in JavaScript.
+//Screen describes the physical display's full screen
+//Document contains the DOM, initialized by parsing HTML. 
